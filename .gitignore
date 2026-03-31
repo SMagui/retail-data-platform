@@ -1,0 +1,32 @@
+# Données brutes (ne jamais versionner)
+data/
+*.csv
+*.parquet
+*.sql
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Spark / Hadoop
+derby.log
+metastore_db/
+spark-warehouse/
+
+# VSCode
+.vscode/settings.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
